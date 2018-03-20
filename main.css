@@ -1,3 +1,75 @@
-.body{
+body{
 	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	background-color: #474B24;
+}
+
+ul.nav { /* get rid of bullet points in the list style */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5FBB97;
+}
+
+li.nav{ /* display it horizontally */
+    display: inline;
+    float: left;
+}
+
+li a { /* create a block like menu for nav bar */
+    display: block;
+    color: black;
+    padding: 10px 14px;
+    text-decoration: none; /* remove the underline */
+    padding-left: 109px;
+    padding-right: 108px;
+}
+
+li a.change-color:hover{ /* change color on hover */
+    background-color: #291711;
+    color: white;
+}
+
+.img-size{
+	display: inline-block;
+	vertical-align: center;
+	width: 20px;
+	height: 20px;
+}
+
+#text-change{
+	display: inline-block;
+	padding-left: 0px;
+	border: 2px;
+}
+
+.picture-container{
+	background-color: #291711;
+	height: 400px;
+}
+
+.adjust-workers{
+	display: block;
+	margin-right: auto;
+	float: left;
+
+}
+
+.adjust-workers img:hover{
+	filter: saturate(3);
+}
+
+aside{
+	float: right;
+}
+
+.about-font{
+	color: white;
+	text-align: center;
+}
+
+.resize-guy{
+	width: 450px;
+	height: 300px;
 }
