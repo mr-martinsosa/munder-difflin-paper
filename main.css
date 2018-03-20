@@ -22,8 +22,8 @@ li a { /* create a block like menu for nav bar */
     color: black;
     padding: 10px 14px;
     text-decoration: none; /* remove the underline */
-    padding-left: 109px;
-    padding-right: 108px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 li a.change-color:hover{ /* change color on hover */
@@ -69,7 +69,16 @@ aside{
 	text-align: center;
 }
 
-.resize-guy{
+.resize-person{
 	width: 450px;
 	height: 300px;
+	border-radius: 60%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.underline-title{
+	font-weight: bold;
+	font-size: 30px;
 }
