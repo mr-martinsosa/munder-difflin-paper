@@ -86,4 +86,14 @@ aside{
 .center-reviews{
 	display: flex;
 	align-items: center;
+	text-align: center;
+}
+
+.adjust-footer{ /* create a block like menu for footer bar */
+    display: block;
+    color: black;
+    padding: 10px 14px;
+    text-decoration: none; /* remove the underline */
+    padding-left: 70px;
+    padding-right: 70px;
 }
