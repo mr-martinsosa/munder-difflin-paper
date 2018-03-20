@@ -2,6 +2,10 @@ body{
 	font-family: 'Source Sans Pro', sans-serif;
 	color: white;
 	background-color: #474B24;
+	margin: 0px;
+	padding: 0px;
+	text-rendering: optimizeLegibility;
+	/*letter-spacing: 2px;*/
 }
 
 ul.nav { /* get rid of bullet points in the list style */
@@ -49,14 +53,14 @@ li a.change-color:hover{ /* change color on hover */
 	height: 400px;
 }
 
-.adjust-workers{
+#adjust-workers{
 	display: block;
 	margin-right: auto;
 	float: left;
 
 }
 
-.adjust-workers img:hover{
+#adjust-workers:hover{
 	filter: saturate(3);
 }
 
@@ -64,7 +68,7 @@ aside{
 	float: right;
 }
 
-.about-font{
+#about-font{
 	color: white;
 	text-align: center;
 }
@@ -83,7 +87,7 @@ aside{
 	font-size: 30px;
 }
 
-.center-reviews{
+#center-reviews{
 	display: flex;
 	align-items: center;
 	text-align: center;
