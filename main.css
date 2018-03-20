@@ -82,3 +82,8 @@ aside{
 	font-weight: bold;
 	font-size: 30px;
 }
+
+.center-reviews{
+	display: flex;
+	align-items: center;
+}
