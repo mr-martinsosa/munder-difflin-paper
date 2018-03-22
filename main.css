@@ -26,8 +26,8 @@ li a { /* create a block like menu for nav bar */
     color: black;
     padding: 10px 14px;
     text-decoration: none; /* remove the underline */
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 li a.change-color:hover{ /* change color on hover */
