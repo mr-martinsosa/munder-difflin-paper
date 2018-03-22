@@ -17,7 +17,8 @@ ul.nav { /* get rid of bullet points in the list style */
     padding: 0;
     overflow: hidden;
     /*background-color: #5FBB97;*/
-    background-color: #778beb
+    background-color: #778beb;
+    z-index: 9999;
 }
 
 li.nav{ /* display it horizontally */
@@ -38,6 +39,12 @@ li a.change-color:hover{ /* change color on hover */
     /*background-color: #291711;*/
     background-color: #596275;
     color: white;
+}
+
+#sticky{
+  position: fixed;
+  top: 0;
+  width: 100%
 }
 
 .img-size{
