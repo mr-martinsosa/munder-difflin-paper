@@ -41,6 +41,11 @@ li a.change-color:hover{ /* change color on hover */
     color: white;
 }
 
+.set-color{
+	background-color: #596275;
+	color: white;
+}
+
 #sticky{
   position: fixed;
   top: 0;
@@ -76,7 +81,7 @@ li a.change-color:hover{ /* change color on hover */
 }
 
 #bamboo-paper{
-	background-image: url("images/bamboo.jpg")
+	background-image: url("images/bamboo.jpg");
 }
 
 .paper-adjust{
@@ -91,11 +96,15 @@ li a.change-color:hover{ /* change color on hover */
 }
 
 #crepe-paper{
-	background-image: url("images/crepe.jpg")
+	background-image: url("./images/crepe.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #white-paper{
-	background-image: url("images/white.JPG")
+	background-image: url("images/white.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #adjust-workers{
