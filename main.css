@@ -1,11 +1,14 @@
 body{
 	font-family: 'Source Sans Pro', sans-serif;
 	color: white;
-	background-color: #474B24;
+	/*background-color: #474B24;*/
+	/*background-color: #f5cd79;*/
+	background-color: #786fa6;
 	margin: 0px;
 	padding: 0px;
 	text-rendering: optimizeLegibility;
 	/*letter-spacing: 2px;*/
+	font-size: 20px;
 }
 
 ul.nav { /* get rid of bullet points in the list style */
@@ -13,7 +16,8 @@ ul.nav { /* get rid of bullet points in the list style */
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #5FBB97;
+    /*background-color: #5FBB97;*/
+    background-color: #778beb
 }
 
 li.nav{ /* display it horizontally */
@@ -26,12 +30,13 @@ li a { /* create a block like menu for nav bar */
     color: black;
     padding: 10px 14px;
     text-decoration: none; /* remove the underline */
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 li a.change-color:hover{ /* change color on hover */
-    background-color: #291711;
+    /*background-color: #291711;*/
+    background-color: #596275;
     color: white;
 }
 
@@ -49,7 +54,8 @@ li a.change-color:hover{ /* change color on hover */
 }
 
 .picture-container{
-	background-color: #291711;
+	/*background-color: #291711;*/
+	background-color: #596275;
 	height: 400px;
 	display: flex;
 	align-items: center;
@@ -59,11 +65,22 @@ li a.change-color:hover{ /* change color on hover */
 
 #picture-container{
 	display: flex;
+	height: 1000px;
 }
 
 #bamboo-paper{
 	background-image: url("images/bamboo.jpg")
-	
+}
+
+.paper-adjust{
+	padding: 200px;
+	color: black;
+	text-align: center;
+
+}
+
+#font-on-color{
+	color: white;
 }
 
 #crepe-paper{
@@ -72,10 +89,6 @@ li a.change-color:hover{ /* change color on hover */
 
 #white-paper{
 	background-image: url("images/white.JPG")
-}
-
-#black-on-white{
-	color: black;
 }
 
 #adjust-workers{
@@ -113,6 +126,7 @@ aside{
 
 .underline-title{
 	font-weight: bold;
+	text-decoration: underline;
 	font-size: 30px;
 }
 
@@ -127,6 +141,6 @@ aside{
     color: black;
     padding: 10px 14px;
     text-decoration: none; /* remove the underline */
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
