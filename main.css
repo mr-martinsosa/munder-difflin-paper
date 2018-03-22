@@ -57,6 +57,27 @@ li a.change-color:hover{ /* change color on hover */
 
 }
 
+#picture-container{
+	display: flex;
+}
+
+#bamboo-paper{
+	background-image: url("images/bamboo.jpg")
+	
+}
+
+#crepe-paper{
+	background-image: url("images/crepe.jpg")
+}
+
+#white-paper{
+	background-image: url("images/white.JPG")
+}
+
+#black-on-white{
+	color: black;
+}
+
 #adjust-workers{
 	display: block;
 	margin-right: auto;
