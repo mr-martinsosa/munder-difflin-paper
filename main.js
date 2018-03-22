@@ -63,21 +63,21 @@ document.addEventListener("DOMContentLoaded", (event) => {
 			ourPaper.classList.remove("set-color")
 			reviews.classList.remove("set-color")
 			contactUs.classList.remove("set-color")
-		}else if(window.scrollY > 2701 && window.scrollY < 3078){
+		}else if(window.scrollY > 2701 && window.scrollY < 3078){ //set both contact and reviews to highlight since theyre close
 			reviews.classList.add("set-color")
-
-			aboutUs.classList.remove("set-color")
-			ourPaper.classList.remove("set-color")
-			theTeam.classList.remove("set-color")
-			contactUs.classList.remove("set-color")
-		}else if(window.scrollY > 3079){
 			contactUs.classList.add("set-color")
 
 			aboutUs.classList.remove("set-color")
 			ourPaper.classList.remove("set-color")
 			theTeam.classList.remove("set-color")
-			reviews.classList.remove("set-color")
-		}//else {
+		}//else if(window.scrollY > 3079){ used to be contact us, never highlighted
+		// 	contactUs.classList.add("set-color")
+
+		// 	aboutUs.classList.remove("set-color")
+		// 	ourPaper.classList.remove("set-color")
+		// 	theTeam.classList.remove("set-color")
+		// 	reviews.classList.remove("set-color")
+		// }//else {
 		// 	aboutUs.classList.remove("set-color")
 		// 	ourPaper.classList.remove("set-color")
 		// 	theTeam.classList.remove("set-color")
