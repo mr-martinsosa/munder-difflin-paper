@@ -33,7 +33,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
 	
 	console.log(window.scrollY)
 	window.addEventListener("scroll", (event) => {
-		console.log(window.scrollY)
 		let grabNav = document.querySelectorAll(".change-color")
 		
 		let aboutUs = grabNav[1]
