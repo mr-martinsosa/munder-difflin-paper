@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", (event) => {
-	let menuJump = document.querySelector("change-color")
+	let menuJump = document.querySelectorAll("change-color")
 	menuJump.addEventListener("onclick", (event) => {
 		if(menuJump.value === "About Us"){
 			window.scroll({
