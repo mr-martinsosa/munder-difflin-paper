@@ -64,6 +64,10 @@ li a.change-color:hover{ /* change color on hover */
 	filter: saturate(3);
 }
 
+.resize-person:hover{
+	filter: saturate(3);
+}
+
 aside{
 	float: right;
 }
