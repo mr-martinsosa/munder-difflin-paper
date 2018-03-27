@@ -6,8 +6,19 @@ body{
 	padding: 0px;
 	text-rendering: optimizeLegibility;
 	font-size: 20px;
+
+	opacity: 1;
+	transition: 1s opacity;
 }
 
+body.fade-out{
+	opacity: 0;
+	transition: none;
+}
+
+section{
+	opacity: 0;
+}
 ul.nav { /* get rid of bullet points in the list style */
     list-style-type: none;
     margin: 0;
@@ -58,6 +69,23 @@ li a.change-color:hover{ /* change color on hover */
 	display: inline-block;
 	padding-left: 0px;
 	border: 2px;
+}
+
+.fade-in{
+	animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .picture-container{
