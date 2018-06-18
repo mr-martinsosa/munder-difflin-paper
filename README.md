@@ -1,2 +1,6 @@
 # munder-difflin-paper
-NYCDA Project # 1 building a one page informational site using HTML, Vanilla Javascript and CSS.
+![Munder Difflin Paper](https://i.imgur.com/dzTafz0.png)
+
+
+A one page informational site built using HTML, Vanilla Javascript and CSS.
+
